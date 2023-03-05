@@ -1,0 +1,47 @@
+日本語による論文の構造
+
+Intruduction
+  Incident
+  Security Classification (Function View)
+
+Network Monitoring
+  Policy
+  Signature
+  NIDS
+    CIDF
+  IDMEF
+  Ruby language
+
+System Overview
+  
+
+Structure of the system  -- 何が、どうできるのか、ではなく、何をするために、どうなっているのか、という構造の説明
+  IDMEF Builder
+    Snort
+    XML
+  IDMEF Proxy
+    PostgreSQL
+  IDMEF Consumer
+    libnet-1.16
+    Ruby based policy script system
+
+Examples -- このシステムによって何が、どのようにできるのかの説明
+  User Management
+  
+Conclusion
+
+何を伝えるのか：
+  IDMEFに準拠したメッセージを利用したネットワークポリシー運用システムの構築
+  アカデミックなネットワークにおける企業ベースの考え方とは異なる懸案事項の説明
+    不特定多数の利用者が異なる目的を持って存在する状態
+    企業ベースと違って規則などで縛りつけることができない
+    情報についての責任者とintrusionについての責任者が別の場合
+
+誰に伝えるのか
+  アカデミックな環境におけるネットワークの一部分を流れる情報についての責任者
+  アカデミックなネットワークを運用する管理者
+
+何を中心にして話を構成するのか (キーワード)
+  ポリシー
+  ネットワークマネージメント (belongs to ポリシー)
+  どうやってポリシーを徹底させるのかについて
